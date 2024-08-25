@@ -151,7 +151,7 @@ button {
 }
 
 button:hover {
-  background-color: #631f6f;
+  background-color: #3e5fef;
   box-shadow: 0 0 10px #1d0c20;
 }
 
@@ -161,4 +161,77 @@ button:hover {
   text-align: center;
   font-size: 11px;
   margin-top: 10px;
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 50%;
+    height: auto;
+  }
+
+  .header-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .selection {
+    height: auto;
+  }
+
+  .selection-title {
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .user-info {
+    width: 70%;
+  }
+
+  input {
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 5px;
+  }
+
+  .options {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .options-card {
+    margin-bottom: 10px;
+    width: 70%;
+    height: 240px;
+    background-color: #2638db;
+    border-radius: 5px;
+  }
+
+  .sports,
+  .simulation,
+  .strategy {
+    width: 90%;
+    height: 220px;
+    margin: 10px;
+    padding-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .img-group {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  button {
+    width: 60%;
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }

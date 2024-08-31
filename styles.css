@@ -163,7 +163,7 @@ button:hover {
   margin-top: 10px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 1358px) {
   .container {
     width: 50%;
     height: auto;
